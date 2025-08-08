@@ -40,7 +40,9 @@ on setting the correct stallguard threshold.
 
 ## Input Shaper
 
-Some defaults have been provided, but they are no doubt unsuitable for your exact machine. We recommend following the [Klipper guide](https://www.klipper3d.org/Measuring_Resonances.html#measuring-the-resonances) on measuring resonances.
+Some defaults have been provided, but they are no doubt unsuitable for your exact machine. We recommend installing [ShakeTune](https://github.com/Frix-x/klippain-shaketune) for measuring resonances, and reading the [Klipper guide](https://www.klipper3d.org/Measuring_Resonances.html#max-smoothing) on understanding which value to choose.
+
+In addition, 
 
 ### Y Axis Input Shaping
 
