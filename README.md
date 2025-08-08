@@ -7,6 +7,8 @@
 This guide assumes you are running an out-of-the-box installation of [MainsailOS](https://docs-os.mainsail.xyz/) on a Raspberry Pi.
 We do not recommend using KIAUH, as this tends to be over-zealous with how it configures your machine.
 
+For installing MainsailOS (and with that, Klipper) for the first time, please refer to their [installation guide](https://docs-os.mainsail.xyz/getting-started/raspberry-pi-os-based).
+
 ### Process
 
 - Run the following command from your SSH terminal
