@@ -57,6 +57,17 @@ enable_force_move: True
 #[include prusawire/probes/e3d_pz_probe__btt_sb2209_usb.cfg]
 
 #########################
+#### FILAMENT SENSOR
+
+##### LDO Nitehawk SB
+#[include prusawire/filament_sensors/ldo_nitehawk_sb.cfg]
+
+##### BTT SB2209 USB
+#[include prusawire/filament_sensors/btt_sb2209_usb.cfg]
+
+# For BTT Pi TFT and HDMI 5, please check back soon
+
+#########################
 #### LCD SCREENS
 
 ##### Prusa MK3 LCD
