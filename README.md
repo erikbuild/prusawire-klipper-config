@@ -30,3 +30,10 @@ PID_CALIBRATE heater=extruder TARGET=250
 ```shell
 PID_CALIBRATE heater=heater_bed TARGET=110
 ```
+
+## Sensorless Homing
+
+If you are running the Einsy board, congrats, you are now done.
+
+For the BTT SKR Mini E3, some further tuning likely needs to happen. Refer to [this guide](https://gist.github.com/clee/9108f7717defce8b1222698f816def0a#finding-the-right-stallguard-threshold) by clee
+on setting the correct stallguard threshold.
