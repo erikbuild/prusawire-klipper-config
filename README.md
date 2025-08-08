@@ -37,3 +37,11 @@ If you are running the Einsy board, congrats, you are now done.
 
 For the BTT SKR Mini E3, some further tuning likely needs to happen. Refer to [this guide](https://gist.github.com/clee/9108f7717defce8b1222698f816def0a#finding-the-right-stallguard-threshold) by clee
 on setting the correct stallguard threshold.
+
+## Input Shaper
+
+Some defaults have been provided, but they are no doubt unsuitable for your exact machine. We recommend following the [Klipper guide](https://www.klipper3d.org/Measuring_Resonances.html#measuring-the-resonances) on measuring resonances.
+
+### Y Axis Input Shaping
+
+This requires an external accelerometer (eg LDO Input Shaper) to be mounted to your heated bed.
