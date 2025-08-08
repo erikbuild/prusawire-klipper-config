@@ -2,6 +2,13 @@
 
 ## Installation
 
+### Some Basic Assumptions
+
+This guide assumes you are running an out-of-the-box installation of [MainsailOS](https://docs-os.mainsail.xyz/) on a Raspberry Pi.
+We do not recommend using KIAUH, as this tends to be over-zealous with how it configures your machine.
+
+### Process
+
 - Run the following command from your SSH terminal
 
 ```shell
