@@ -39,7 +39,7 @@ enable_force_move: True
 #serial: /dev/serial/by-id/usb-Klipper_rp2040_xxxxxxx
 
 ##### BTT SB2209 USB
-#[include prusawire/toolboards/btt_sb2209_usb.cfg
+#[include prusawire/toolboards/btt_sb2209_usb.cfg]
 #
 #[mcu sb2209]
 #serial: /dev/serial/by-id/usb-Klipper_rp2040_xxxxxxx
@@ -54,7 +54,7 @@ enable_force_move: True
 #[include prusawire/probes/e3d_pz_probe__ldo_nitehawk_sb.cfg]
 
 ##### SuperPINDA on BTT SB2209 USB
-#[include prusawire/probes/super_pinda__btt_sb2209_usb.cfg
+#[include prusawire/probes/super_pinda__btt_sb2209_usb.cfg]
 
 ##### E3D PZ Probe on BTT SB2209 USB
 #[include prusawire/probes/e3d_pz_probe__btt_sb2209_usb.cfg]
@@ -82,7 +82,7 @@ enable_force_move: True
 
 [printer]
 kinematics: corexz
-max_velocity: 350
+max_velocity: 300
 max_accel: 4000
 max_z_velocity: 300
 max_z_accel: 2000
