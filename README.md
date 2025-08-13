@@ -23,6 +23,7 @@ git clone https://github.com/Positron3D/prusawire-klipper-config.git ~/printer_d
 ```ini
 [update_manager prusawire-config]
 type: git_repo
+primary_branch: main
 path: ~/printer_data/config/prusawire
 origin: https://github.com/Positron3D/prusawire-klipper-config.git
 managed_services: klipper
