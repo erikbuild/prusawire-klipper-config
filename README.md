@@ -15,7 +15,7 @@ For installing MainsailOS (and with that, Klipper) for the first time, please re
 
 ```shell
 cd ~/
-git clone https://github.com/Positron3D/prusawire-klipper-config.git ~/printer_data/config/prusawire
+git clone https://git.sr.ht/~ellafoxo/Prusawire-Klipper-Config ~/printer_data/config/prusawire
 ```
 
 - Add this section to your moonraker.conf file
