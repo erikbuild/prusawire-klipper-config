@@ -25,7 +25,7 @@ git clone https://github.com/Positron3D/prusawire-klipper-config.git ~/printer_d
 type: git_repo
 primary_branch: main
 path: ~/printer_data/config/prusawire
-origin: https://github.com/Positron3D/prusawire-klipper-config.git
+origin: https://git.sr.ht/~ellafoxo/Prusawire-Klipper-Config
 managed_services: klipper
 ```
 
