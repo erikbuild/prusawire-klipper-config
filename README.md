@@ -9,6 +9,9 @@ We do not recommend using KIAUH, as this tends to be over-zealous with how it co
 
 For installing MainsailOS (and with that, Klipper) for the first time, please refer to their [installation guide](https://docs-os.mainsail.xyz/getting-started/raspberry-pi-os-based).
 
+### Upgrading the Einsy Rambo to Klipper - Read this!
+Installing Klipper on the Einsy Rambo board is possible, with extra steps. Follow the guide published by the awesome folks at [MyRigs3D](https://myrigs3d.com/blogs/infos/revive-your-prusa-mk3s-with-klipper-1-5-flash-bootloader)! We recommend Method 2.
+
 ### Process
 
 - Run the following command from your SSH terminal
