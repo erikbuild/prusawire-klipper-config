@@ -84,6 +84,9 @@ enable_force_move: True
 #### PRINT START AND END
 [include prusawire/macros/print_start_end.cfg]
 
+#### FILAMENT LOAD AND UNLOAD
+[include prusawire/macros/filament_load_unload.cfg]
+
 #### MOVEMENT
 [include prusawire/macros/movement.cfg]
 
