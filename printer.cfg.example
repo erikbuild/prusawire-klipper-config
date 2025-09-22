@@ -53,11 +53,17 @@ enable_force_move: True
 ##### E3D PZ Probe on LDO Nitehawk SB
 #[include prusawire/probes/e3d_pz_probe__ldo_nitehawk_sb.cfg]
 
+##### Omron Probe on LDO Nitehawk SB
+#[include prusawire/probes/omron__ldo_nitehawk_sb.cfg]
+
 ##### SuperPINDA on BTT SB2209 USB
 #[include prusawire/probes/super_pinda__btt_sb2209_usb.cfg]
 
 ##### E3D PZ Probe on BTT SB2209 USB
 #[include prusawire/probes/e3d_pz_probe__btt_sb2209_usb.cfg]
+
+##### Omron Probe on BTT SB2209 USB
+#[include prusawire/probes/omron__btt_sb2209_usb.cfg]
 
 #########################
 #### FILAMENT SENSOR
