@@ -18,7 +18,7 @@ Installing Klipper on the Einsy Rambo board is possible, with extra steps. Follo
 
 ```shell
 cd ~/
-git clone https://git.sr.ht/~ellafoxo/Prusawire-Klipper-Config ~/printer_data/config/prusawire
+git clone https://github.com/Positron3D/prusawire-klipper-config.git ~/printer_data/config/prusawire
 ```
 
 - Add this section to your moonraker.conf file
@@ -28,7 +28,7 @@ git clone https://git.sr.ht/~ellafoxo/Prusawire-Klipper-Config ~/printer_data/co
 type: git_repo
 primary_branch: main
 path: ~/printer_data/config/prusawire
-origin: https://git.sr.ht/~ellafoxo/Prusawire-Klipper-Config
+origin: https://github.com/Positron3D/prusawire-klipper-config.git
 managed_services: klipper
 ```
 
